@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ALGEBRA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_matrix_recycler">Действия над матрицами</string>
+    <string name="title_activity_determinant">Нахождение определителя</string>
+    <string name="title_activity_sum">Сложение матриц</string>
+    <string name="title_activity_answer">AnswerActivity</string>
+    <string name="title_activity_difference">Вычитание матриц</string>
+    <string name="title_activity_multiplication">Произведение матрицы на число</string>
+    <string name="title_activity_matrix_multiplication">Произведение матриц</string>
+    <string name="title_activity_transposition">Транспонирование матрицы А</string>
+    <string name="title_activity_inverse_matrix">Нахождение обратной матрицы</string>
+    <string name="title_activity_system">Решение систем ЛУ</string>
+    <string name="title_activity_answer_nf">Результат</string>
+</resources>
