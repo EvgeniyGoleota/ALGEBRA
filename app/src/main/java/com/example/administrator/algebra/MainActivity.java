@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity
             mainPoint = new ArrayList<String>();
             mainPoint.add("Действия над матрицами");               //0
             mainPoint.add("Решение систем линейных уравнений");    //1
+            mainPoint.add("Операции с векторами");                 //2
         }
 
         @Override
@@ -107,6 +108,19 @@ public class MainActivity extends AppCompatActivity
                         public void onClick(View v) {
                             Context context = v.getContext();
                             Intent intent = new Intent(context, SystemActivity.class);
+                            context.startActivity(intent);
+                        }
+                    });
+                }break;
+                case 2:{
+
+                    holder.iv.setImageResource(R.drawable.vectors);
+
+                    holder.cardView.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Context context = v.getContext();
+                            Intent intent = new Intent(context, VectorActivity.class);
                             context.startActivity(intent);
                         }
                     });

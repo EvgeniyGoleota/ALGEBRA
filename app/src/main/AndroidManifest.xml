@@ -61,6 +61,10 @@
         <activity
             android:name=".AnswerNFActivity"
             android:label="@string/title_activity_answer_nf"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VectorActivity"
+            android:label="@string/title_activity_vector"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

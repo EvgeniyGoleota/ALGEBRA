@@ -16,4 +16,5 @@
     <string name="title_activity_inverse_matrix">Нахождение обратной матрицы</string>
     <string name="title_activity_system">Решение систем ЛУ</string>
     <string name="title_activity_answer_nf">Результат</string>
+    <string name="title_activity_vector">VectorActivity</string>
 </resources>
