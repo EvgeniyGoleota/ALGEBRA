@@ -64,8 +64,16 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".VectorActivity"
-            android:label="@string/title_activity_vector"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="Операции над векторами"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ZavisimosSistemOtVector"
+            android:label="@string/title_activity_zavisimos_sistem_ot_vector"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BazisActivity"
+            android:label="Являются ли вектора базисом"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

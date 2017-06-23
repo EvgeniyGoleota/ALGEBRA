@@ -92,6 +92,39 @@ public class Read_Writer {
 
     }
 
+    public static double[] ReadRectangleMatrix(int sizeColumn,Fragment frag) {
+        double[] Matrix = new double[sizeColumn];
+        switch (sizeColumn) {
+            case 2: {
+                Matrix[0] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a11)).getText().toString());
+                Matrix[1] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a12)).getText().toString());
+            } break;
+
+            case 3: {
+                Matrix[0] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a11)).getText().toString());
+                Matrix[1] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a12)).getText().toString());
+                Matrix[2] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a13)).getText().toString());
+            } break;
+
+            case 4: {
+                Matrix[0] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a11)).getText().toString());
+                Matrix[1] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a12)).getText().toString());
+                Matrix[2] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a13)).getText().toString());
+                Matrix[3] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a14)).getText().toString());
+            } break;
+
+            case 5: {
+                Matrix[0] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a11)).getText().toString());
+                Matrix[1] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a12)).getText().toString());
+                Matrix[2] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a13)).getText().toString());
+                Matrix[3] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a14)).getText().toString());
+                Matrix[4] = Double.parseDouble(((EditText) frag.getView().findViewById(R.id.a15)).getText().toString());
+            } break;
+        }
+
+        return Matrix;
+    }
+
     public static double[][] ReadRectangleMatrix(int sizeRow,int sizeColumn,Fragment frag ){
     try {
         double[][] Matrix = new double[sizeRow][sizeColumn];

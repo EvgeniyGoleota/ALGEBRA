@@ -17,4 +17,8 @@
     <string name="title_activity_system">Решение систем ЛУ</string>
     <string name="title_activity_answer_nf">Результат</string>
     <string name="title_activity_vector">VectorActivity</string>
+    <string name="title_activity_zavisimos_sistem_ot_vector">Зависимость/независимость системы
+        векторов
+    </string>
+    <string name="title_activity_bazis">BazisActivity</string>
 </resources>

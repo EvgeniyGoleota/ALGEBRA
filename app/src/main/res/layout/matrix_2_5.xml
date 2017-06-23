@@ -18,7 +18,6 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
                     android:ems="10"
                     android:textAlignment="center"
                     android:id="@+id/a11"
@@ -28,7 +27,6 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
                     android:ems="10"
                     android:textAlignment="center"
                     android:id="@+id/a12"
@@ -38,7 +36,6 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
                     android:ems="10"
                     android:textAlignment="center"
                     android:id="@+id/a13"
@@ -48,7 +45,6 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
                     android:ems="10"
                     android:textAlignment="center"
                     android:id="@+id/a14"
@@ -57,7 +53,6 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
                     android:ems="10"
                     android:textAlignment="center"
                     android:id="@+id/a15"
@@ -65,13 +60,13 @@
             </TableRow>
 
             <TableRow
+                android:id="@+id/secondRow"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="numberSigned"
                     android:ems="10"
                     android:textAlignment="center"
                     android:id="@+id/a21"
@@ -81,7 +76,6 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
                     android:ems="10"
                     android:textAlignment="center"
                     android:id="@+id/a22"
@@ -91,7 +85,6 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
                     android:ems="10"
                     android:textAlignment="center"
                     android:id="@+id/a23"
@@ -100,7 +93,6 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
                     android:ems="10"
                     android:textAlignment="center"
                     android:id="@+id/a24"
@@ -109,7 +101,6 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
                     android:ems="10"
                     android:textAlignment="center"
                     android:id="@+id/a25"
