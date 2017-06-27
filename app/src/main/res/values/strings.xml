@@ -21,4 +21,8 @@
         векторов
     </string>
     <string name="title_activity_bazis">BazisActivity</string>
+    <string name="title_activity_rang_sistem_of_vectors">RangSistemOfVectors</string>
+    <string name="title_activity_scol_multiplication">Скалярное произведение векторов</string>
+    <string name="title_activity_length_vectors">Длина вектора</string>
+    <string name="title_activity_razlogenie_vektora">Разложение вектора по базису</string>
 </resources>

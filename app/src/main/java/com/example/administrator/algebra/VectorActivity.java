@@ -40,15 +40,15 @@ public class VectorActivity extends AppCompatActivity {
 
         public VectorRecyclerViewAdapter() {
             matrixPoint = new ArrayList<>();
-            matrixPoint.add("Линейная зависимость/независимость системы векторов"); //0
-            matrixPoint.add("Проверка, явлиется ли вектора базисом");               //1
-            matrixPoint.add("Разложение вектора по базису");                        //2
-            matrixPoint.add("Матрица перехода");                                    //3
-            matrixPoint.add("Связь между координатными столбцами");                 //4
-            matrixPoint.add("Ранг системы векторов");                               //5
-            matrixPoint.add("Процесс ортоганализациии");                            //6
-            matrixPoint.add("Нахождение сколярного произведения векторов");         //7
-            matrixPoint.add("Нахождение длины вектора(кормы)");                     //8
+            matrixPoint.add("Линейная зависимость/независимость системы векторов"); //0+
+            matrixPoint.add("Проверка, явлиется ли вектора базисом");               //1+
+            matrixPoint.add("Разложение вектора по базису");                        //2+
+            matrixPoint.add("Матрица перехода");                                    //3+?
+            matrixPoint.add("Связь между координатными столбцами");                 //4---
+            matrixPoint.add("Ранг системы векторов");                               //5+
+            matrixPoint.add("Процесс ортоганализациии");                            //6---
+            matrixPoint.add("Нахождение скалярного произведения векторов");         //7+
+            matrixPoint.add("Нахождение длины вектора(кормы)");                     //8+
         }
 
         @Override
@@ -86,7 +86,7 @@ public class VectorActivity extends AppCompatActivity {
                         @Override
                         public void onClick(View v) {
                             Context context = v.getContext();
-                            Intent intent = new Intent(context,MultiplicationActivity.class);
+                            Intent intent = new Intent(context,RazlogenieVektora.class);
                             context.startActivity(intent);
                         }
                     });
@@ -116,7 +116,7 @@ public class VectorActivity extends AppCompatActivity {
                         @Override
                         public void onClick(View v) {
                             Context context = v.getContext();
-                            Intent intent = new Intent(context,TranspositionActivity.class);
+                            Intent intent = new Intent(context,RangSistemOfVectors.class);
                             context.startActivity(intent);
                         }
                     });
@@ -136,7 +136,7 @@ public class VectorActivity extends AppCompatActivity {
                             @Override
                             public void onClick(View v) {
                                 Context context = v.getContext();
-                                Intent intent = new Intent(context,DeterminantActivity.class);
+                                Intent intent = new Intent(context,ScolMultiplication.class);
                                 context.startActivity(intent);
                             }
                         });
@@ -146,7 +146,7 @@ public class VectorActivity extends AppCompatActivity {
                             @Override
                             public void onClick(View v) {
                                 Context context = v.getContext();
-                                Intent intent = new Intent(context,DeterminantActivity.class);
+                                Intent intent = new Intent(context,lengthVectors.class);
                                 context.startActivity(intent);
                             }
                         });

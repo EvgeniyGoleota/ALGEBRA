@@ -74,6 +74,22 @@
             android:name=".BazisActivity"
             android:label="Являются ли вектора базисом"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RangSistemOfVectors"
+            android:label="Ранг системы векторов"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScolMultiplication"
+            android:label="@string/title_activity_scol_multiplication"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lengthVectors"
+            android:label="@string/title_activity_length_vectors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RazlogenieVektora"
+            android:label="@string/title_activity_razlogenie_vektora"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
